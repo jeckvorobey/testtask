@@ -8,14 +8,18 @@ import "bootstrap/dist/css/bootstrap.css";
 
 Vue.use(BootstrapVue);
 
+//стили
+import "./assets/style/main.scss";
+
 //импорт компонентов
 import Footer from "./components/Footer.vue";
+import LeftInfo from "./components/LeftInfo.vue";
+import Btn from "./components/Btn.vue";
 
 //Глобальная регистрация компонентов
 Vue.component("v-footer", Footer);
-
-//стили
-import "./assets/style/main.scss";
+Vue.component("v-leftinfo", LeftInfo);
+Vue.component("v-btn", Btn);
 
 Vue.config.productionTip = false;
 

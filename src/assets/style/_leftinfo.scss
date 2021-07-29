@@ -1,0 +1,40 @@
+.info {
+
+  &__text {
+    margin-top: 181px;
+  }
+
+  &__title {
+    font-family: "DMSerifText";
+    font-size: 70px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 70px;
+  }
+
+  &__subtitle {
+    margin-top: 23px;
+    color: #191919;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    line-height: normal;
+  }
+
+  &__desc {
+    color: #191919;
+    font-family: "Manrope-EB";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+
+  }
+}

@@ -2,9 +2,10 @@
     .content
       section.container.home
         .row 
+          .col-5
+            v-leftinfo
           .col-xl 
-          .col-xl 
-        .row.mb-5 
+        .row
           v-footer 
 </template>
 <script>

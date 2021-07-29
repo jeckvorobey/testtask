@@ -1,18 +1,19 @@
-//bootstrap 4
-// @import "../../../node_modules/bootstrap/scss/functions";
-// @import "../../../node_modules/bootstrap/scss/variables";
-// @import "../../../node_modules/bootstrap/scss/mixins";
-// @import "../../../node_modules/bootstrap/scss/root";
-// @import "../../../node_modules/bootstrap/scss/reboot";
-// @import "../../../node_modules/bootstrap/scss/type";
-
-
 @import "./fonts";
-@import "./variables";
+
+$fc-main: #222222;
+$fc-second:#191919;
+$fc-third: #666666;
+
+
+$bg-color: #f6f0e8;
+
+$ff-second: Manrope;
+$ff-semibold: Manrope-SB;
+$ff-title: DMSerifText;
 
 
 #app {
-  font-family: DMSerifText, Manrope;
+  font-family: $ff-second, $ff-second;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

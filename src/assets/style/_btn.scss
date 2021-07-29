@@ -1,0 +1,19 @@
+.button {
+  width: 270px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #bbc0c3;
+  background-color: #f6f0e8;
+  text-decoration: none;
+  color: #222222;
+  font-family: "Manrope-SB";
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  line-height: normal;
+
+  &:hover {
+    border-color: green;
+  }
+}
