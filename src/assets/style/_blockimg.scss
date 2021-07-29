@@ -6,7 +6,7 @@
   &__1 {
     width: 327px;
     height: 234px;
-    background-image: url("/images/svg/florals.svg");
+    background-image: url("../assets/images/svg/florals.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -20,11 +20,11 @@
     margin: 0;
     margin-left: 133px;
     background-color: #000;
-    -webkit-mask-image: url("/images/svg/mask-bg-img.svg");
+    -webkit-mask-image: url("../assets/images/svg/mask-bg-img.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: bottom center;
     -webkit-mask-size: contain;
-    mask-image: url("/images/svg/mask-bg-img.svg");
+    mask-image: url("../assets/images/svg/mask-bg-img.svg");
     mask-repeat: no-repeat;
     mask-position: bottom center;
     mask-size: contain
@@ -34,12 +34,12 @@
     height: 100%;
     width: 100%;
 
-    :hover {
-      -webkit-mask-image: url("/images/svg/mask-hover.svg");
+    &:hover {
+      -webkit-mask-image: url("../assets/images/svg/mask-hover.svg");
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: bottom center;
       -webkit-mask-size: contain;
-      mask-image: url("/images/svg/mask-hover.svg");
+      mask-image: url("../assets/images/svg/mask-hover.svg");
       mask-repeat: no-repeat;
       mask-position: bottom center;
       mask-size: contain;
@@ -49,7 +49,7 @@
   &__2 {
     width: 273px;
     height: 231px;
-    background-image: url("/images/svg/geometric-2.svg");
+    background-image: url("../assets/images/svg/geometric-2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -60,7 +60,7 @@
   &__3 {
     width: 151px;
     height: 132px;
-    background-image: url("/images/svg/geometric-1.svg");
+    background-image: url("../assets/images/svg/geometric-1.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
