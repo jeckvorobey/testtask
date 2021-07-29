@@ -6,7 +6,7 @@
             v-leftinfo
           .col-12.col-xl-7
             v-blockimg
-        .row.mt-lg-3
+        .row
           v-footer 
 </template>
 <script>

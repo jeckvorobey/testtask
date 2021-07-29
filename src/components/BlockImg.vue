@@ -1,8 +1,8 @@
 <template lang="pug">
   .elements 
     .elements__1 
-    figure.elements__figure.mw-100 
-      img(src="../assets/images/home/img.png" alt="img").elements__img.img-fluid 
+    figure.elements__figure
+      img(src="../assets/images/home/img.png" alt="img").elements__img 
     .elements__2 
     .elements__3 
 </template>

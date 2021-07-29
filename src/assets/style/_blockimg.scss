@@ -1,7 +1,13 @@
 .elements {
   position: relative;
-  // width: 868px;
-  // height: 800px;
+  width: 850px;
+  height: 730px;
+
+  @media (max-width: 991.98px) {
+    width: 100%;
+    height: 304px;
+    margin-right: 0;
+  }
 
   &__1 {
     width: 327px;
@@ -12,32 +18,41 @@
     position: absolute;
     bottom: 0;
     left: 0;
+
+    @media (max-width: 991.98px) {
+      width: 125px;
+      height: 89px;
+      left: 17px;
+    }
+
   }
 
   &__figure {
-    // height: 800px;
-    // width: 701px;
+    height: 709px;
+    width: 625px;
     margin: 0;
     margin-left: 133px;
     background-color: #000;
     -webkit-mask-image: url("../assets/images/svg/mask-bg-img.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    -webkit-mask-size: contain;
+    -webkit-mask-size: cover;
     mask-image: url("../assets/images/svg/mask-bg-img.svg");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: cover;
 
 
-    @media (max-width: 1199.98px) {
-      margin: 0;
+    @media (max-width: 991.98px) {
+      width: 266px;
+      height: 304px;
+      margin-left: 68px;
     }
   }
 
   &__img {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
 
     &:hover {
       -webkit-mask-image: url("../assets/images/svg/mask-hover.svg");
@@ -59,7 +74,13 @@
     background-size: cover;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 70px;
+
+    @media (max-width: 991.98px) {
+      width: 108px;
+      height: 88px;
+      right: 12px;
+    }
   }
 
   &__3 {
@@ -69,7 +90,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 44px;
-    left: 159px;
+    top: 9px;
+    left: 163px;
+
+    @media (max-width: 991.98px) {
+      width: 58px;
+      height: 51px;
+      top: 16px;
+      left: 68px;
+    }
   }
+
 }

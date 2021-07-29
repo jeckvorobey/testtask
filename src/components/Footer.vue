@@ -1,17 +1,18 @@
 <template lang="pug">
-  footer.footer.d-flex.justify-content-between.align-items-xl-end.align-items-center
+  footer.footer.d-flex.justify-content-between.align-items-xl-end.align-items-center 
     .footer__icons 
-      .footer__icons.item 
-        img(src="../assets/images/footer/Vector_Smart_Object.png" alt="icon-modern").icon__modern
-        img(src="../assets/images/footer/Vector_Smart_Objecta.png" alt="icon-home").icon__home    
+      img(src="../assets/images/footer/Vector_Smart_Object.png" alt="icon-modern").icon__modern 
+      img(src="../assets/images/footer/Vector_Smart_Objecta.png" alt="icon-home").icon__home 
     p.footer__copy.m-0 Copyrights 2021 &copy; Rise LIC 
     p.footer__privacy.m-0 Privacy Policy 
 </template>
+
 <script>
 export default {
   name: "Footer",
 };
 </script>
+
 <style lang="scss" scoped>
 $fc-main: #222222;
 $fc-second: #191919;
@@ -25,6 +26,11 @@ $ff-semibold: Manrope-SB;
 .footer {
   color: $fc-main;
   font-family: $ff-second;
+
+  @media (max-width: 1199.98px) {
+    margin-top: 15px;
+    padding: 0 25px;
+  }
 
   &__copy {
     font-size: 13px;
