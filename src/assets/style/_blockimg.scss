@@ -1,0 +1,70 @@
+.elements {
+  position: relative;
+  width: 868px;
+  height: 800px;
+
+  &__1 {
+    width: 327px;
+    height: 234px;
+    background-image: url("/images/svg/florals.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__figure {
+    height: 800px;
+    width: 701px;
+    margin: 0;
+    margin-left: 133px;
+    background-color: #000;
+    -webkit-mask-image: url("/images/svg/mask-bg-img.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: bottom center;
+    -webkit-mask-size: contain;
+    mask-image: url("/images/svg/mask-bg-img.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom center;
+    mask-size: contain
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+
+    :hover {
+      -webkit-mask-image: url("/images/svg/mask-hover.svg");
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: bottom center;
+      -webkit-mask-size: contain;
+      mask-image: url("/images/svg/mask-hover.svg");
+      mask-repeat: no-repeat;
+      mask-position: bottom center;
+      mask-size: contain;
+    }
+  }
+
+  &__2 {
+    width: 273px;
+    height: 231px;
+    background-image: url("/images/svg/geometric-2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__3 {
+    width: 151px;
+    height: 132px;
+    background-image: url("/images/svg/geometric-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 44px;
+    left: 159px;
+  }
+}

@@ -6,7 +6,6 @@
 
 .el-w {
   position: relative;
-
   width: 868px;
   height: 800px;
 }
@@ -21,6 +20,7 @@
   bottom: 0;
   left: 0;
 }
+
 .figure {
   height: 800px;
   width: 701px;

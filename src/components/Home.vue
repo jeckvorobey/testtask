@@ -4,7 +4,8 @@
         .row 
           .col-5
             v-leftinfo
-          .col-xl 
+          .col-7
+            v-blockimg
         .row
           v-footer 
 </template>
