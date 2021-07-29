@@ -1,33 +1,38 @@
 .elements {
   position: relative;
-  width: 868px;
-  height: 800px;
+  // width: 868px;
+  // height: 800px;
 
   &__1 {
     width: 327px;
     height: 234px;
     background-image: url("../assets/images/svg/florals.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     bottom: 0;
     left: 0;
   }
 
   &__figure {
-    height: 800px;
-    width: 701px;
+    // height: 800px;
+    // width: 701px;
     margin: 0;
     margin-left: 133px;
     background-color: #000;
     -webkit-mask-image: url("../assets/images/svg/mask-bg-img.svg");
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: bottom center;
+    -webkit-mask-position: center;
     -webkit-mask-size: contain;
     mask-image: url("../assets/images/svg/mask-bg-img.svg");
     mask-repeat: no-repeat;
-    mask-position: bottom center;
-    mask-size: contain
+    mask-position: center;
+    mask-size: cover;
+
+
+    @media (max-width: 1199.98px) {
+      margin: 0;
+    }
   }
 
   &__img {
@@ -37,12 +42,12 @@
     &:hover {
       -webkit-mask-image: url("../assets/images/svg/mask-hover.svg");
       -webkit-mask-repeat: no-repeat;
-      -webkit-mask-position: bottom center;
-      -webkit-mask-size: contain;
+      -webkit-mask-position: center;
+      -webkit-mask-size: cover;
       mask-image: url("../assets/images/svg/mask-hover.svg");
       mask-repeat: no-repeat;
-      mask-position: bottom center;
-      mask-size: contain;
+      mask-position: center;
+      mask-size: cover;
     }
   }
 
@@ -51,7 +56,7 @@
     height: 231px;
     background-image: url("../assets/images/svg/geometric-2.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -62,7 +67,7 @@
     height: 132px;
     background-image: url("../assets/images/svg/geometric-1.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     top: 44px;
     left: 159px;

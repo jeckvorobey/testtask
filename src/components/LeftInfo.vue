@@ -6,7 +6,7 @@
         | Welcome to the heightened life.
       span.info__subtitle.d-block
         | Studio to 3 BR Luxury Rentals
-      span.info__desc.d-block.mt-3
+      span.info__desc.d-block.mt-1.mt-lg-3
         | comming summer 2021 
     .info__btn.mt-5
       v-btn

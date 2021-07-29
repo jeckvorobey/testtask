@@ -13,6 +13,18 @@
   letter-spacing: 0.4px;
   line-height: normal;
 
+  @media (max-width: 1199.98px) {
+    width: 200px;
+    height: 40px;
+
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+
+    letter-spacing: 0.3px;
+
+  }
+
   &:hover {
     border-color: green;
   }

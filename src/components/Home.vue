@@ -1,12 +1,12 @@
 <template lang="pug">
-    .content
+    .content.vh-100
       section.container.home
-        .row 
-          .col-5
+        .row.clearfix.w-100.g-0
+          .col-12.col-xl-5
             v-leftinfo
-          .col-7
+          .col-12.col-xl-7
             v-blockimg
-        .row
+        .row.mt-lg-3
           v-footer 
 </template>
 <script>
