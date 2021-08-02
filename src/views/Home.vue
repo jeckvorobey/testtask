@@ -1,6 +1,6 @@
 <template lang="pug">
   .container-fluid.g-0
-    .content.vh-100.mb-5
+    .content.vh-100
       section.container.home
         .row.clearfix.w-100.g-0
           .col-12.col-xl-5

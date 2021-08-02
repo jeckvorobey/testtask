@@ -1,0 +1,81 @@
+.content {
+  background-color: #f6f0e8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__svg {
+    width: 24%;
+    height: 19%;
+    background-image: url("../assets/images/rise/florals.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 10%;
+
+  }
+
+  &__svg-1 {
+    width: 10%;
+    height: 16%;
+    background-image: url("../assets/images/rise/svg-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  &__svg-2 {
+    width: 19%;
+    height: 31%;
+    background-image: url("../assets/images/rise/svg-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__svg-3 {
+    width: 6%;
+    height: 40%;
+    background-image: url("../assets/images/rise//svg-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 17%;
+    right: 0%;
+  }
+}
+
+.rise {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  &__title {
+    margin-top: 220px;
+    color: #222222;
+    font-family: "DMSerifText";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.4px;
+  }
+}
+
+.form-wrap {
+  width: 450px;
+  max-width: 450px;
+
+}
+
+.footer-wrap {
+  padding: 0 90px;
+  z-index: 1;
+}

@@ -20,12 +20,14 @@ import Footer from "./components/Footer.vue";
 import LeftInfo from "./components/LeftInfo.vue";
 import Btn from "./components/Btn.vue";
 import BlockImg from "./components/BlockImg.vue";
+import Form from "./components/Form.vue";
 
 //Глобальная регистрация компонентов
 Vue.component("v-footer", Footer);
 Vue.component("v-leftinfo", LeftInfo);
 Vue.component("v-btn", Btn);
 Vue.component("v-blockimg", BlockImg);
+Vue.component("v-form", Form);
 
 Vue.config.productionTip = false;
 
