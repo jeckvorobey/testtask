@@ -6,6 +6,10 @@ import { BootstrapVue } from "bootstrap-vue";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+//библиотека barba.js
+import barba from "../node_modules/@barba/core";
+Object.defineProperty(Vue.prototype, "$barba", { value: barba });
+
 Vue.use(BootstrapVue);
 
 //стили

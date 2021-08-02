@@ -12,6 +12,7 @@
     "bootstrap": "^5.0.2",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "gsap": "^3.7.1",
     "jquery": "^3.6.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",

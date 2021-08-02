@@ -1,36 +1,30 @@
 <template lang="pug">
   .elements 
     .elements__1 
-    figure.elements__figure 
-      img(src="../assets/images/home/img.png" alt="img" v-on:click="showImg").elements__img 
+    figure().elements__figure 
+      img(src="../assets/images/home/img.png"  alt="img" v-on:click="$bvModal.show('modal-img')").elements__img 
     .elements__2 
     .elements__3 
-    popup(v-if="popupShow" v-on:popapClose="popapClose")
-      img(src="../assets/images/home/img.png" alt="img").img-fluid
+    b-modal(
+      hide-footer
+      hide-header
+      content-class="content-img"
+      dialog-class="dialog-img"
+      centered
+      static
+    )#modal-img
+      template
+        b-container(fluid)
+          figure
+            img(src="../assets/images/home/img.png" alt="img")
 </template>
 <script>
-import popup from "../components/Popup";
-
 export default {
-  name: "BlockImg",
-  components: {
-    popup,
-  },
-
   data() {
-    return {
-      popupShow: false,
-    };
+    return {};
   },
 
-  methods: {
-    showImg() {
-      this.popupShow = true;
-    },
-    popapClose() {
-      this.popupShow = false;
-    },
-  },
+  methods: {},
 };
 </script>
 <style lang="scss" scoped>

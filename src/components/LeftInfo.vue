@@ -9,7 +9,7 @@
       span.info__desc.d-block.mt-1.mt-lg-3
         | comming summer 2021 
     .info__btn
-      v-btn
+      v-btn(v-on:showModalForm="$bvModal.show('modal-form')")
 </template>
 
 <script>

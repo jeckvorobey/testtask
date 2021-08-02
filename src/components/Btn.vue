@@ -8,7 +8,7 @@ export default {
   name: "Btn",
   methods: {
     onClick() {
-      alert("нажата кнопка");
+      this.$emit("showModalForm");
     },
   },
 };
