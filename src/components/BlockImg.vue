@@ -29,4 +29,19 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../assets/style/_blockimg.scss";
+#modal-img {
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dialog-img {
+  min-width: fit-content;
+}
+
+.content-img {
+  max-width: fit-content !important;
+  width: fit-content !important;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
 </style>

@@ -4,9 +4,10 @@
   height: 730px;
 
   @media (max-width: 991.98px) {
-    width: 100%;
+    position: relative;
+    width: 266px;
     height: 304px;
-    margin-right: 0;
+    margin-right: 0 auto;
   }
 
   &__1 {
@@ -22,7 +23,7 @@
     @media (max-width: 991.98px) {
       width: 125px;
       height: 89px;
-      left: 17px;
+      left: -20%;
     }
 
   }
@@ -52,7 +53,7 @@
 
   &__img {
     height: 100%;
-    max-width: 100%;
+    // max-width: 100%;
 
     &:hover {
       -webkit-mask-image: url("../assets/images/svg/mask-hover.svg");
@@ -79,7 +80,7 @@
     @media (max-width: 991.98px) {
       width: 108px;
       height: 88px;
-      right: 12px;
+      right: -6%;
     }
   }
 
@@ -96,8 +97,8 @@
     @media (max-width: 991.98px) {
       width: 58px;
       height: 51px;
-      top: 16px;
-      left: 68px;
+      top: 3%;
+      left: 3%;
     }
   }
 
